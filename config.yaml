@@ -1,0 +1,42 @@
+# 支持零配置启动，即无需填写配置默认启用所有的插件。
+# 只需要填写需要修改的配置项即可。不需要将所有的配置都填写进来！！。
+# 全局配置参考 https://m7s.live/guide/config.html
+# 插件配置参考各个插件的文档
+# 插件都有一个enable配置，如果为false则不启用该插件，默认为true即不需要配置。
+
+llhls:
+  enable: false
+hls:
+  enable: false
+monitor:
+  enable: false
+
+mysql:
+  host: '172.17.1.170'
+  port: 3306
+  username: 'root'
+  password: 'Dzx123!@#'
+  dbname: 'media'
+
+gb28181:
+  invitemode: 1 #0、手动invite 1、表示自动发起invite，当Server（SIP）接收到设备信息时，立即向设备发送invite命令获取流,2、按需拉流，既等待订阅者触发
+  position:
+    autosubposition: false #是否自动订阅定位
+    expires: 3600s #订阅周期(单位：秒)，默认3600
+    interval: 6s #订阅间隔（单位：秒），默认6
+  udpcachesize: 0 #表示UDP缓存大小，默认为0，不开启。仅当TCP关闭，切缓存大于0时才开启
+  sipip: '' #sip服务器地址 默认 自动适配设备网段
+  serial: '34020000002000000001'
+  realm: '3402000000'
+  username: 'abc'
+  password: '12345678'
+
+  registervalidity: 60s #注册有效期
+
+  mediaip: '' #媒体服务器地址 默认 自动适配设备网段
+  port:
+    sip: udp:5060 #sip服务器端口
+    media: tcp:58200 #媒体服务器端口，用于接收设备的流,范围端口表示法：udp:50000-60000
+
+  removebaninterval: 10m #定时移除注册失败的设备黑名单，单位秒，默认10分钟（600秒）
+  loglevel: info
