@@ -6,9 +6,7 @@ require (
 	go.uber.org/zap v1.24.0
 	m7s.live/engine/v4 v4.13.5
 	m7s.live/plugin/debug/v4 v4.0.0
-	m7s.live/plugin/edge/v4 v4.0.5
 	m7s.live/plugin/fmp4/v4 v4.0.3
-	m7s.live/plugin/hls/v4 v4.3.1
 	m7s.live/plugin/hook/v4 v4.0.2
 	m7s.live/plugin/jessica/v4 v4.2.0
 	m7s.live/plugin/logrotate/v4 v4.0.4
@@ -26,8 +24,11 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
-	github.com/zhangpeihao/goamf v0.0.0-20140409082417-3ff2c19514a8 // indirect
-	m7s.live/plugin/hdl/v4 v4.1.6 // indirect
+	github.com/zhangpeihao/goamf v0.0.0-20140409082417-3ff2c19514a8 // indir
+	github.com/zzs89117920/m7s-hdl v0.0.9
+	github.com/zzs89117920/m7s-hls v0.0.5
+	github.com/zzs89117920/m7s-record v0.0.2
+	m7s.live/plugin/hls/v4 v4.3.1 // indirect
 )
 
 require (
@@ -100,8 +101,6 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	github.com/zzs89117920/m7s-db v0.0.2 // indirect
 	github.com/zzs89117920/m7s-gb28181 v0.0.10
-	github.com/zzs89117920/m7s-hdl v0.0.4
-	github.com/zzs89117920/m7s-record v0.0.1
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.10.0 // indirect

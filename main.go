@@ -42,11 +42,10 @@ import (
 
 	_ "github.com/zzs89117920/m7s-gb28181"
 	_ "github.com/zzs89117920/m7s-hdl"
+	_ "github.com/zzs89117920/m7s-hls"
 	_ "github.com/zzs89117920/m7s-record"
 	_ "m7s.live/plugin/debug/v4"
-	_ "m7s.live/plugin/edge/v4"
 	_ "m7s.live/plugin/fmp4/v4"
-	_ "m7s.live/plugin/hls/v4"
 	_ "m7s.live/plugin/hook/v4"
 	_ "m7s.live/plugin/jessica/v4"
 	_ "m7s.live/plugin/logrotate/v4"

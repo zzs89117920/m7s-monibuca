@@ -7,7 +7,7 @@
 llhls:
   enable: false
 hls:
-  enable: false
+  enable: true
 monitor:
   enable: false
 
