@@ -27,7 +27,7 @@ require (
 	github.com/zhangpeihao/goamf v0.0.0-20140409082417-3ff2c19514a8 // indir
 	github.com/zzs89117920/m7s-hdl v0.0.9
 	github.com/zzs89117920/m7s-hls v0.0.5
-	github.com/zzs89117920/m7s-record v0.0.2
+	github.com/zzs89117920/m7s-record v0.0.5
 	m7s.live/plugin/hls/v4 v4.3.1 // indirect
 )
 

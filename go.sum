@@ -279,8 +279,8 @@ github.com/zzs89117920/m7s-hdl v0.0.9 h1:lCwxMftmABuPdbZo3KmQnB6URKZd+E5tDIYYqJq
 github.com/zzs89117920/m7s-hdl v0.0.9/go.mod h1:41YFA20eWOPak1GCtLEwnSYvP9yP9F6O9NQEbiJI8mA=
 github.com/zzs89117920/m7s-hls v0.0.5 h1:MeUOTVAAS6hv3+V2tpdCnzwuasHZfV4oK0/lFqqH49k=
 github.com/zzs89117920/m7s-hls v0.0.5/go.mod h1:3d6lka113Ovb65EEMRWQZRFU+S45FTGfyL4rEtby86k=
-github.com/zzs89117920/m7s-record v0.0.2 h1:2ES1LQSq4CXqzbWXrFH1DJejMkBt56LSZ4k5IMn5dPM=
-github.com/zzs89117920/m7s-record v0.0.2/go.mod h1:nPBM1Up3GYz6RRPwcKixFP4HuSRuhjAWXcHe0lrqkRU=
+github.com/zzs89117920/m7s-record v0.0.5 h1:a1C45zVX+wTCtuQtdcVkmfo4myw7IIrQZa2Pgbax3y8=
+github.com/zzs89117920/m7s-record v0.0.5/go.mod h1:nPBM1Up3GYz6RRPwcKixFP4HuSRuhjAWXcHe0lrqkRU=
 go.uber.org/atomic v1.11.0 h1:ZvwS0R+56ePWxUNi+Atn9dWONBPp/AUETXlHW0DxSjE=
 go.uber.org/atomic v1.11.0/go.mod h1:LUxbIzbOniOlMKjJjyPfpl4v+PKK2cNJn91OQbhoJI0=
 go.uber.org/goleak v1.1.11 h1:wy28qYRKZgnJTxGxvye5/wgWr1EKjmUDGYox5mGlRlI=
