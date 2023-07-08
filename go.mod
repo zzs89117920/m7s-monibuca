@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	go.uber.org/zap v1.24.0
-	m7s.live/engine/v4 v4.13.5
+	m7s.live/engine/v4 v4.13.6
 	m7s.live/plugin/debug/v4 v4.0.0
 	m7s.live/plugin/fmp4/v4 v4.0.3
 	m7s.live/plugin/hook/v4 v4.0.2
@@ -29,8 +29,9 @@ require (
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
+	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
+	github.com/zzs89117920/m7s-sysinfo v0.0.4 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
-	m7s.live/plugin/exporter/v4 v4.0.0 // indirect
 )
 
 require (
@@ -113,7 +114,7 @@ require (
 	github.com/yapingcat/gomedia v0.0.0-20230629165039-b21d55738a41 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	github.com/zzs89117920/m7s-db v0.0.2 // indirect
-	github.com/zzs89117920/m7s-gb28181 v0.0.10
+	github.com/zzs89117920/m7s-gb28181 v0.0.12
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.10.0 // indirect
