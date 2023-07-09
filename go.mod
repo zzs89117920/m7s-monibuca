@@ -114,7 +114,7 @@ require (
 	github.com/yapingcat/gomedia v0.0.0-20230629165039-b21d55738a41 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
 	github.com/zzs89117920/m7s-db v0.0.2 // indirect
-	github.com/zzs89117920/m7s-gb28181 v0.0.12
+	github.com/zzs89117920/m7s-gb28181 v0.0.13
 	go.uber.org/atomic v1.11.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/crypto v0.10.0 // indirect

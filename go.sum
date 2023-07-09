@@ -443,8 +443,8 @@ github.com/zhangpeihao/goamf v0.0.0-20140409082417-3ff2c19514a8 h1:r1JUI0wuHlgRb
 github.com/zhangpeihao/goamf v0.0.0-20140409082417-3ff2c19514a8/go.mod h1:RZd/IqzNpFANwOB9rVmsnAYpo/6KesK4PqrN1a5cRgg=
 github.com/zzs89117920/m7s-db v0.0.2 h1:ESoZ8LabJpbwJnb7Ep6mljcFxit1WZtgkz31txNWe9s=
 github.com/zzs89117920/m7s-db v0.0.2/go.mod h1:RKZeXhNfCMhEDGzE2XOwGaaBZDShjENOWxc6EqrVWHs=
-github.com/zzs89117920/m7s-gb28181 v0.0.12 h1:rJMgP+UFGw3o/8OfaWgebjIcnIt4d36F+cwsFn1JePA=
-github.com/zzs89117920/m7s-gb28181 v0.0.12/go.mod h1:VNJTlcR30y0oD8tBVNqwyBYzAFNCMrPecn7S8rb3nPM=
+github.com/zzs89117920/m7s-gb28181 v0.0.13 h1:2Z4nJIZx587wbUWu1spwG8MjcrvFbJ56wX7TPqR8LnI=
+github.com/zzs89117920/m7s-gb28181 v0.0.13/go.mod h1:VNJTlcR30y0oD8tBVNqwyBYzAFNCMrPecn7S8rb3nPM=
 github.com/zzs89117920/m7s-hdl v0.0.9 h1:lCwxMftmABuPdbZo3KmQnB6URKZd+E5tDIYYqJqVwRQ=
 github.com/zzs89117920/m7s-hdl v0.0.9/go.mod h1:41YFA20eWOPak1GCtLEwnSYvP9yP9F6O9NQEbiJI8mA=
 github.com/zzs89117920/m7s-hls v0.0.5 h1:MeUOTVAAS6hv3+V2tpdCnzwuasHZfV4oK0/lFqqH49k=
