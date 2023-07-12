@@ -8,6 +8,8 @@ llhls:
   enable: false
 hls:
   enable: true
+rtsp:
+  enable: false
 monitor:
   enable: false
 mysql:
