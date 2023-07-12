@@ -280,8 +280,8 @@ github.com/zzs89117920/m7s-hdl v0.0.9 h1:lCwxMftmABuPdbZo3KmQnB6URKZd+E5tDIYYqJq
 github.com/zzs89117920/m7s-hdl v0.0.9/go.mod h1:41YFA20eWOPak1GCtLEwnSYvP9yP9F6O9NQEbiJI8mA=
 github.com/zzs89117920/m7s-hls v0.0.5 h1:MeUOTVAAS6hv3+V2tpdCnzwuasHZfV4oK0/lFqqH49k=
 github.com/zzs89117920/m7s-hls v0.0.5/go.mod h1:3d6lka113Ovb65EEMRWQZRFU+S45FTGfyL4rEtby86k=
-github.com/zzs89117920/m7s-record v0.0.5 h1:a1C45zVX+wTCtuQtdcVkmfo4myw7IIrQZa2Pgbax3y8=
-github.com/zzs89117920/m7s-record v0.0.5/go.mod h1:nPBM1Up3GYz6RRPwcKixFP4HuSRuhjAWXcHe0lrqkRU=
+github.com/zzs89117920/m7s-record v0.0.6 h1:W2/+eqN8I2AISnF56Q5a0xylqPgFvMz8M7y+kNnXFpk=
+github.com/zzs89117920/m7s-record v0.0.6/go.mod h1:nPBM1Up3GYz6RRPwcKixFP4HuSRuhjAWXcHe0lrqkRU=
 github.com/zzs89117920/m7s-sysinfo v0.0.5 h1:xd43cyh4RZLpnPnK1XmmLqn8lJS6HHvlHGCEvXKvWf4=
 github.com/zzs89117920/m7s-sysinfo v0.0.5/go.mod h1:xMHbGL61gBN3KNysB2FNgzOP7dpW5WfLY0usChSCWlE=
 go.uber.org/atomic v1.11.0 h1:ZvwS0R+56ePWxUNi+Atn9dWONBPp/AUETXlHW0DxSjE=
