@@ -274,8 +274,8 @@ github.com/yusufpapurcu/wmi v1.2.3 h1:E1ctvB7uKFMOJw3fdOW32DwGE9I7t++CRUEMKvFoFi
 github.com/yusufpapurcu/wmi v1.2.3/go.mod h1:SBZ9tNy3G9/m5Oi98Zks0QjeHVDvuK0qfxQmPyzfmi0=
 github.com/zzs89117920/m7s-db v0.0.2 h1:ESoZ8LabJpbwJnb7Ep6mljcFxit1WZtgkz31txNWe9s=
 github.com/zzs89117920/m7s-db v0.0.2/go.mod h1:RKZeXhNfCMhEDGzE2XOwGaaBZDShjENOWxc6EqrVWHs=
-github.com/zzs89117920/m7s-gb28181 v0.0.14 h1:4UnE9+SvvccpMAndmV0c6StJLmXJDsc0S8dMTEEqdYQ=
-github.com/zzs89117920/m7s-gb28181 v0.0.14/go.mod h1:VNJTlcR30y0oD8tBVNqwyBYzAFNCMrPecn7S8rb3nPM=
+github.com/zzs89117920/m7s-gb28181 v0.0.15 h1:lCwAzvErRAQAhBfe+aMPKWssVmApeMutjEgPjbL5Apk=
+github.com/zzs89117920/m7s-gb28181 v0.0.15/go.mod h1:VNJTlcR30y0oD8tBVNqwyBYzAFNCMrPecn7S8rb3nPM=
 github.com/zzs89117920/m7s-hdl v0.0.9 h1:lCwxMftmABuPdbZo3KmQnB6URKZd+E5tDIYYqJqVwRQ=
 github.com/zzs89117920/m7s-hdl v0.0.9/go.mod h1:41YFA20eWOPak1GCtLEwnSYvP9yP9F6O9NQEbiJI8mA=
 github.com/zzs89117920/m7s-hls v0.0.5 h1:MeUOTVAAS6hv3+V2tpdCnzwuasHZfV4oK0/lFqqH49k=
