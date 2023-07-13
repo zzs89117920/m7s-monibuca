@@ -3,7 +3,18 @@
 # 全局配置参考 https://m7s.live/guide/config.html
 # 插件配置参考各个插件的文档
 # 插件都有一个enable配置，如果为false则不启用该插件，默认为true即不需要配置。
-
+global:
+  disableall: false # 是否禁用所有插件
+  loglang: zh # 日志语言，可选值：zh,en
+  loglevel: info # 日志级别，可选值：debug,info,warn,error,panic,fatal
+  http:
+    listenaddr: :18381 # 网关地址，用于访问API
+    listenaddrtls: '18443' # 用于HTTPS方式访问API的端口配置
+    username: '' # 用户名和密码，用于API访问时的基本身份认证
+    password: ''
+hdl:
+  http:
+    listenaddr: :18380
 llhls:
   enable: false
 hls:
@@ -18,7 +29,17 @@ mysql:
   username: 'root'
   password: 'Dzx123!@#'
   dbname: 'media'
-
+record:
+  http:
+    listenaddr: :18379
+  subscribe:
+    submode: 1 # 订阅模式，0为跳帧追赶模式，1为不追赶（多用于录制），2为时光回溯模式
+  mp4:
+    ext: .mp4
+    path: record/mp4
+    autorecord: false
+    filter: ''
+    fragment: 3600s
 gb28181:
   invitemode: 1 #0、手动invite 1、表示自动发起invite，当Server（SIP）接收到设备信息时，立即向设备发送invite命令获取流,2、按需拉流，既等待订阅者触发
   position:
@@ -27,17 +48,17 @@ gb28181:
     interval: 6s #订阅间隔（单位：秒），默认6
   udpcachesize: 0 #表示UDP缓存大小，默认为0，不开启。仅当TCP关闭，切缓存大于0时才开启
   sipip: '' #sip服务器地址 默认 自动适配设备网段
-  serial: '34020000002000000001'
-  realm: '3402000000'
-  username: 'abc'
-  password: '12345678'
+  serial: '23010401461118000001'
+  realm: '2301040146'
+  username: '23010401461118000001'
+  password: 'buXa&&Pt%S'
 
   registervalidity: 60s #注册有效期
 
   mediaip: '' #媒体服务器地址 默认 自动适配设备网段
   port:
     sip: udp:5060 #sip服务器端口
-    media: tcp:58200 #媒体服务器端口，用于接收设备的流,范围端口表示法：udp:50000-60000
+    media: udp:50000-60000 #媒体服务器端口，用于接收设备的流,范围端口表示法：udp:50000-60000
 
   removebaninterval: 10m #定时移除注册失败的设备黑名单，单位秒，默认10分钟（600秒）
   loglevel: info
