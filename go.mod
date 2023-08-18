@@ -34,7 +34,7 @@ require (
 	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/zzs89117920/m7s-hdl v0.0.9
 	github.com/zzs89117920/m7s-hls v0.0.5
-	github.com/zzs89117920/m7s-record v0.0.13
+	github.com/zzs89117920/m7s-record v0.0.14
 	m7s.live/plugin/hls/v4 v4.3.1 // indirect
 )
 
