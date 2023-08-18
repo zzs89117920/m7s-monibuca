@@ -25,7 +25,6 @@ require (
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/minio/minio-go v6.0.14+incompatible // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
 )
 
@@ -35,7 +34,7 @@ require (
 	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/zzs89117920/m7s-hdl v0.0.9
 	github.com/zzs89117920/m7s-hls v0.0.5
-	github.com/zzs89117920/m7s-record v0.0.12
+	github.com/zzs89117920/m7s-record v0.0.13
 	m7s.live/plugin/hls/v4 v4.3.1 // indirect
 )
 
