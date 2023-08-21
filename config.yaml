@@ -8,13 +8,13 @@ global:
   loglang: zh # 日志语言，可选值：zh,en
   loglevel: info # 日志级别，可选值：debug,info,warn,error,panic,fatal
   http:
-    listenaddr: :18381 # 网关地址，用于访问API
+    listenaddr: :49997 # 网关地址，用于访问API
     listenaddrtls: '18443' # 用于HTTPS方式访问API的端口配置
-    username: '' # 用户名和密码，用于API访问时的基本身份认证
-    password: ''
+    username: 'Ex8mHuT^!s' # 用户名和密码，用于API访问时的基本身份认证
+    password: 'DhTjy$b5xv'
 hdl:
   http:
-    listenaddr: :18380
+    listenaddr: :49998
 llhls:
   enable: false
 hls:
@@ -24,14 +24,14 @@ rtsp:
 monitor:
   enable: false
 mysql:
-  host: '172.17.1.170'
-  port: 3306
+  host: '1.190.195.54'
+  port: 49996
   username: 'root'
   password: 'Dzx123!@#'
   dbname: 'media'
 record:
   http:
-    listenaddr: :18379
+    listenaddr: :49995
   subscribe:
     submode: 1 # 订阅模式，0为跳帧追赶模式，1为不追赶（多用于录制），2为时光回溯模式
   mp4:
@@ -40,6 +40,13 @@ record:
     autorecord: false
     filter: ''
     fragment: 3600s
+  store:
+    type: 'Minio'
+    endpoint: 'mediastatic.hashizhengyi.cn:8000'
+    accesskey: 'MYXiIILmaC0Xqkn5rbc1'
+    secretkey: 'eSB1UsdUO5NrrlQkjIx0aXqIJIFp8vbLfxGjEWQ9'
+    bucket: 'record'
+
 gb28181:
   invitemode: 1 #0、手动invite 1、表示自动发起invite，当Server（SIP）接收到设备信息时，立即向设备发送invite命令获取流,2、按需拉流，既等待订阅者触发
   position:
@@ -57,7 +64,7 @@ gb28181:
 
   mediaip: '' #媒体服务器地址 默认 自动适配设备网段
   port:
-    sip: udp:5060 #sip服务器端口
+    sip: udp:49999 #sip服务器端口
     media: udp:50000-60000 #媒体服务器端口，用于接收设备的流,范围端口表示法：udp:50000-60000
 
   removebaninterval: 10m #定时移除注册失败的设备黑名单，单位秒，默认10分钟（600秒）

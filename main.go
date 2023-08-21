@@ -66,9 +66,12 @@ var (
 
 func main() {
 	fmt.Println("start github.com/langhuihui/monibuca version:", version)
+	fmt.Println("SettingDir:",engine.SettingDir)
 	conf := flag.String("c", "config.yaml", "config file")
 	flag.Parse()
 	ctx, cancel := context.WithCancel(context.WithValue(context.Background(), "version", version))
 	go util.WaitTerm(cancel)
 	engine.Run(ctx, *conf)
+
+	
 }
